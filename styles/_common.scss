@@ -47,8 +47,8 @@
 
 .title-logo {
   font-size: $xl-6;
-  -webkit-text-stroke: 1px $white;
-  color: transparent;
+  // -webkit-text-stroke: 1px $white;
+  // color: transparent;
   span {
     font-size: $xl-5;
     -webkit-text-stroke: $green;
@@ -66,15 +66,21 @@
   font-weight: 500;
   letter-spacing: 2px;
 }
+.small-title{
+  font-family: var(--font-proxima-medium);
+  font-size: $xl-1;
+  font-weight: 500;
+}
 .title {
   font-family: var(--font-proxima-medium);
   font-size: $xl-6;
-  background: $gradient2;
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  // font-weight: 500;
+  // background: $gradient2;
+  // background-size: 100%;
+  // -webkit-background-clip: text;
+  // -moz-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // -moz-text-fill-color: transparent;
 }
 .title-bg {
   font-size: 40px;

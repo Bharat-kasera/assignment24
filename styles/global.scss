@@ -317,6 +317,12 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .box {
+    h1 {
+      font-size: 50px !important;
+      font-weight: 400;
+    }
+  }
   .banner {
     .container {
       @include flex(center, none, column);
@@ -328,6 +334,18 @@ footer {
       }
     }
   }
+      .box {
+      margin-bottom: $xll;
+      .icons {
+        color: $green;
+      }
+      h3 {
+        padding: $xl-2 0;
+      }
+      span {
+        opacity: 0.5;
+      }
+    }
 
   .blog-card {
     .card {
@@ -356,7 +374,7 @@ footer {
       flex-direction: column;
     }
     .grid-3 {
-      @include grid(repeat(3, 1fr), 50px);
+      @include grid(repeat(3, 1fr), 40px);
     }
   }
   .contact {

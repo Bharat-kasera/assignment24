@@ -7,7 +7,7 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <Title title='We are looking forward to start a new project' /> <br />
+            <div className='small-title'>We are looking forward to start a new project</div> <br />
             <TitleLogo title='Lets take your business to the next level!' />
           </div>
           <div>

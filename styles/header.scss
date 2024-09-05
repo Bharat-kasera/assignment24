@@ -7,6 +7,9 @@ header {
   top: 0;
   backdrop-filter: blur(10px);
   z-index: 999;
+  .hamburger-menu{
+    display: none;
+  }
   .container {
     @include flex(center, space-between, none);
     nav {
@@ -34,6 +37,9 @@ header {
   header {
     nav {
       display: none;
+    }
+    .hamburger-menu{
+      display: block;
     }
     .openMenu {
       position: absolute;
